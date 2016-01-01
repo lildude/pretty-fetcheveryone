@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Pretty Fetcheveryone",
+  "description": "This extension brings Fetcheveryone.com out of the early 90s by giving it a modern coat of paint.",
+  "version": "0.1",
+  "background": {
+    "scripts": ["eventPage.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://www.fetcheveryone.com/*"],
+      "css": ["pretty-fetch.css", "font-awesome.min.css"],
+      "js": ["pretty-fetch.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": [
+    "tabs", "http://www.fetcheveryone.com/*"
+  ]
+}
