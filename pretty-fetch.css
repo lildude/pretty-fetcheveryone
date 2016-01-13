@@ -2,6 +2,10 @@
   display: none !important;
 }
 
+#amazon-request-box {
+  display: none !important;
+}
+
 #headerWrapper {
   background-color: #555 !important;
   background-image: none !important;
