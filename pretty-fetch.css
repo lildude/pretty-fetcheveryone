@@ -1,14 +1,18 @@
-#motm-nomination-box {
-  display: none !important;
-}
-
-#amazon-request-box {
-  display: none !important;
-}
-
 #headerWrapper {
   background-color: #555 !important;
   background-image: none !important;
+}
+
+#pageHeader {
+  background-color: #000 !important;
+}
+
+#fetchLinksBar ul li {
+  border: none !important;
+}
+
+#fetchGreeting, #fetchGreetingAndLinks a, #fetchLinksBar ul li, #fetchLinksBar ul li * {
+  color: #fff !important;
 }
 
 #page {
@@ -241,4 +245,20 @@ tr.headers {
 tr.headers td {
     background-color: #f6f6f6 !important;
     border-color: #d9d9d9 !important;
+}
+
+/** Annoyances */
+/* That annoying advert bar at the top of the page */
+#fetchBanner {
+  display: none !important;
+}
+
+/* Member of the month nomination */
+#motm-nomination-box {
+  display: none !important;
+}
+
+/* Amazon begging box */
+#amazon-request-box {
+  display: none !important;
 }
