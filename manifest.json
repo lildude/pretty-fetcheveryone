@@ -11,12 +11,13 @@
   "content_scripts": [
     {
       "matches": ["http://www.fetcheveryone.com/*"],
-      "css": ["pretty-fetch.css", "font-awesome.min.css"],
+      "css": ["pretty-fetch.css", "activity-icons.css"],
       "js": ["pretty-fetch.js"],
       "run_at": "document_end"
     }
   ],
   "permissions": [
     "tabs", "http://www.fetcheveryone.com/*"
-  ]
+  ],
+  "web_accessible_resources": ["*.ttf", "font-awesome.min.css", "*.woff2", "*.woff" ]
 }
