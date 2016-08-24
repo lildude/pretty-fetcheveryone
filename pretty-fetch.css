@@ -265,6 +265,6 @@ tr.headers td {
 }
 
 /* Amazon begging box */
-#amazon-request-box {
+#amazon-request-box, div.topbar.visibletopbar {
   display: none !important;
 }
