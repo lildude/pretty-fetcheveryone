@@ -14,7 +14,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["http://www.fetcheveryone.com/*"],
+      "matches": ["https://www.fetcheveryone.com/*"],
       "css": ["pretty-fetch.css", "activity-icons.css"],
       "js": ["pretty-fetch.js"],
       "run_at": "document_end"
