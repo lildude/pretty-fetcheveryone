@@ -55,7 +55,7 @@ function changeSourceAll(original, newimg) {
     }
 
     /* Editing training page - change columns to 50% width */
-    if(/fetcheveryone\.com\/training-edit\.php/.test(loc)){
+    if(/fetcheveryone\.com\/training-edit\.php/.test(loc) || /fetcheveryone\.com\/training-add\.php/.test(loc)){
       document.getElementsByClassName("fespan_2_of_3")[0].className = "fecol fespan_1_of_2";
       document.getElementsByClassName("fespan_1_of_3")[0].className = "fecol fespan_1_of_2";
 
