@@ -6,39 +6,41 @@
   background: linear-gradient(#444444, #000000) !important;
 }
 
-#fetchGreeting, #fetchGreetingAndLinks a, #fetchLinksBar ul li {
-    color: #fff !important;
+#fetchGreeting,
+#fetchGreetingAndLinks a,
+#fetchLinksBar ul li {
+  color: #fff !important;
 }
 
 #fetchLinksBar ul li {
-    border-left: none !important;
+  border-left: none !important;
 }
 
 #fetchLogoBar {
-    background: transparent !important;
+  background: transparent !important;
 }
 
 #secondNavBar {
-    height: 13px !important;
-    min-height: inherit !important;
+  height: 13px !important;
+  min-height: inherit !important;
 }
 
 #content {
-    /*padding: 0 !important;*/
+  /*padding: 0 !important;*/
 }
 
 #training_add .fegroup {
-    margin-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 
 td.sessiontype {
-    background-color: #efefef !important;
+  background-color: #efefef !important;
 }
 
 .notes {
-    text-align: left !important;
-    padding-left: 1% !important;
+  text-align: left !important;
+  padding-left: 1% !important;
 }
 
 #training_list .training_entry img {
@@ -49,29 +51,31 @@ td.sessiontype {
   padding: 1% !important;
 }
 
-#training_list tr td:nth-of-type(1), #training_list tr td:nth-of-type(2) {
-    width: auto !important;
-    white-space: nowrap !important;
+#training_list tr td:nth-of-type(1),
+#training_list tr td:nth-of-type(2) {
+  width: auto !important;
+  white-space: nowrap !important;
 }
 
-#training_list .row_highlighted, #training_list tr.row_highlighted td.sessiontype {
-    background-color: #ff0 !important;
+#training_list .row_highlighted,
+#training_list tr.row_highlighted td.sessiontype {
+  background-color: #ff0 !important;
 }
 
 #training_list tr.categoryB td.sessiontype {
-    background-position: -161px center !important;
+  background-position: -161px center !important;
 }
 
 #training_list tr.categoryC td.sessiontype {
-    background-position: -2px center !important;
+  background-position: -2px center !important;
 }
 
 #training_list tr.categoryR td.sessiontype {
-    background-position: -82px center !important;
+  background-position: -82px center !important;
 }
 
 #training_list tr.categoryS td.sessiontype {
-    background-position: -403px center !important;
+  background-position: -403px center !important;
 }
 
 i.fa {
@@ -89,23 +93,37 @@ Commented out because the "Export to Excel" button has crap html
 }
 
 */
-
 /** Add training form **/
 form.form2016 select {
   -webkit-appearance: menulist-button !important;
   appearance: menulist-button !important;
 }
 
-form.form2016 input[type=button], form.form2016 input[type=submit] {
+form.form2016 input[type=button],
+form.form2016 input[type=submit] {
   cursor: pointer !important;
 }
 
 textarea[name=notes] {
   width: 100% !important;
+  min-height: 600px !important;
 }
 #training_type {
   width: 80% !important;
 }
+
+.trainingform .fespan_1_of_3 {
+  width: 49%;
+}
+
+.trainingform .fespan_2_of_3 {
+  width: 49%;
+}
+
+.trainingform .fespan_1_of_3 {
+  margin-left: 0.3%;
+}
+
 
 .col-box0 {
   /* text-align: left !important; */
@@ -248,7 +266,6 @@ tr.headers td {
     border-color: #d9d9d9 !important;
 }
 */
-
 /** Annoyances */
 /* Recently online in footer - unnecessary graphics */
 #recentlyonlineWrapper {
@@ -265,6 +282,7 @@ tr.headers td {
 }
 
 /* Amazon begging box */
-#amazon-request-box, div.topbar.visibletopbar {
+#amazon-request-box,
+div.topbar.visibletopbar {
   display: none !important;
 }
